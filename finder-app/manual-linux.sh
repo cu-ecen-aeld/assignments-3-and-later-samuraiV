@@ -48,8 +48,8 @@ if [ ! -e ${OUTDIR}/linux-stable/arch/${ARCH}/boot/Image ]; then
     make -j4 ARCH=arm64 CROSS_COMPILE=aarch64-none-linux-gnu- all
 
     # Step4: build any kernel modules and device tree
-    make -j4 ARCH=arm64 CROSS_COMPILE=aarch64-none-linux-gnu- modules
-    make -j4 ARCH=arm64 CROSS_COMPILE=aarch64-none-linux-gnu- devicetree
+    #make -j4 ARCH=arm64 CROSS_COMPILE=aarch64-none-linux-gnu- modules
+    #make -j4 ARCH=arm64 CROSS_COMPILE=aarch64-none-linux-gnu- devicetree
 
 fi
 
