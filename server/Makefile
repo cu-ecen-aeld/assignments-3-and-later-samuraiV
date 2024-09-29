@@ -1,6 +1,6 @@
-CC = gcc
+#CC = gcc
 
-CFLAGS = -Wall -Werror
+#CFLAGS = -Wall -Werror
 
 all: aesdsocket
 
